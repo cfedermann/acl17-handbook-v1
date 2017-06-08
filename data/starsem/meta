@@ -1,0 +1,12 @@
+abbrev *SEM2017
+type CONFERENCE
+title Sixth Joint Conference on Lexical and Computational Semantics
+url https://sites.google.com/site/starsem2017/
+booktitle Proceedings of the Sixth Joint Conference on Lexical and Computational Semantics
+month August
+year 2017
+location Vancouver, BC
+publisher Association for Computational Linguistics
+chairs Nancy Ide (Vassar College, USA)
+%% TODO: get correct bib_url
+bib_url http://www.aclweb.org/anthology/S17-1%03d

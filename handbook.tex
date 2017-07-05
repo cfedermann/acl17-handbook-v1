@@ -45,6 +45,27 @@
 % for each part of the conference, add the .bib file produced with
 % meta2bibtex.py here:
 
+%%% cfedermann
+%
+%%% The following is needed to update biblatex to >v3.3
+%
+% #1 = last name
+% #2 = last name (initials)
+% #3 = first name
+% #4 = first name (initials)
+% #5 = name prefix, a.k.a. 'von part'
+% #6 = name prefix (initials)
+% #7 = name affix, a.k.a. 'junior part'
+% #8 = name affix (initials)
+%
+%%%
+% #1, #2 --> {\namepartfamily}, {\namepartfamilyi}
+% #3, #4 --> {\namepartgiven}, {\namepartgiveni}
+% #5, #6 --> {\namepartprefix}, {\namepartprefixi}
+% #7, #8 --> {\namepartsuffix}, {\namepartsuffixi}
+%
+%%%
+
 \bibliography{auto/tacl/papers.bib}
 
 \bibliography{auto/argmining/papers.bib}

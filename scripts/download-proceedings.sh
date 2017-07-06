@@ -1,3 +1,4 @@
+basefolder=`pwd`
 for name in $(cat input/conferences.txt); do
   x=$(echo $name | cut -d\| -f1)
   url=$(echo $name | cut -d\| -f2)
@@ -33,5 +34,5 @@ for name in $(cat input/conferences.txt); do
 #  lastfile=$(ls -r1 *.tgz | tail -n1)
 #  tar --exclude '*.pdf' --exclude '*gz' --exclude '*zip' -xzvf $lastfile proceedings/order proceedings/final.tgz 
 #  tar --exclude '*.pdf' --exclude '*gz' --exclude '*zip' -xzvf proceedings/final.tgz
-  cd -
+  cd $basefolder
 done
